@@ -16,7 +16,7 @@ public class ExampleController {
     }
     
     @GetMapping("/name")
-    public void name(
+    public String name(
         return "Hello World! This is Mohammendnaeem Meman, 23388054";
     }
 
