@@ -14,6 +14,11 @@ public class ExampleController {
     public String ping() {
         return "hello world";
     }
+    
+    @GetMapping("/name")
+    public void name(
+        return "Hello World! This is Mohammendnaeem Meman, 23388054";
+    }
 
     @GetMapping("/example")
     public ExampleResponse example(
@@ -35,4 +40,5 @@ public class ExampleController {
         }
         throw new RuntimeException();
     }
+    
 }
